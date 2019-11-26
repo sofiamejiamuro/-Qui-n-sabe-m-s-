@@ -1,0 +1,150 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "quién sabe más",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "DifficultIntent",
+                    "slots": [
+                        {
+                            "name": "dificil",
+                            "type": "dificultad"
+                        }
+                    ],
+                    "samples": [
+                        "dificilito",
+                        "dificil"
+                    ]
+                },
+                {
+                    "name": "EasyIntent",
+                    "slots": [
+                        {
+                            "name": "Facil",
+                            "type": "dificultad"
+                        }
+                    ],
+                    "samples": [
+                        "facilisimo",
+                        "facilito",
+                        "facil"
+                    ]
+                },
+                {
+                    "name": "SuperDifficultIntent",
+                    "slots": [
+                        {
+                            "name": "superdifficult",
+                            "type": "dificultad"
+                        }
+                    ],
+                    "samples": [
+                        "muy dificil",
+                        "super dificil",
+                        "redificil"
+                    ]
+                },
+                {
+                    "name": "EntroIntent",
+                    "slots": [],
+                    "samples": [
+                        "simon",
+                        "si",
+                        "sip",
+                        "simona la mona",
+                        "venga pues",
+                        "chido",
+                        "me late",
+                        "arre",
+                        "orale",
+                        "vale",
+                        "le entro"
+                    ]
+                },
+                {
+                    "name": "NoIntent",
+                    "slots": [],
+                    "samples": [
+                        "que no",
+                        "nop",
+                        "mejor no",
+                        "luego",
+                        "nopi",
+                        "nel",
+                        "no"
+                    ]
+                },
+                {
+                    "name": "NoUnderstandIntent",
+                    "slots": [],
+                    "samples": [
+                        "o sea como",
+                        "otra vez",
+                        "hablas muy rapido",
+                        "como",
+                        "como dijiste",
+                        "no entendi"
+                    ]
+                },
+                {
+                    "name": "TitanicCorrectIntent",
+                    "slots": [],
+                    "samples": [
+                        "taitanic",
+                        "titanic"
+                    ]
+                },
+                {
+                    "name": "NoIdeaTitanicIntent",
+                    "slots": [],
+                    "samples": [
+                        "dame otra pista",
+                        "no me acuerdo",
+                        "quien sabe",
+                        "no la he visto",
+                        "ni idea",
+                        "no se "
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "dificultad",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "redificil"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dificil"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "facil"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
