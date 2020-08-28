@@ -5,7 +5,7 @@ Esta skill de Alexa fue diseñada y desarrollada durante el Hackhaton *Women in 
 Como resultado se obtuvo el primer lugar.
 
 <p  align="left">
-<img src="./assets/hackathon-women-in-voice.jpg"  width="200"/>
+<img src="./assets/images/hackathon-women-in-voice.jpg"  width="200"/>
 </p>
 El reto era de temática abierta.
 
@@ -16,6 +16,10 @@ La propuesta fue crear un juego en el que pudieran puedieran existir múlptiples
 El juego consiste en un conjuto de preguntas que Alexa hará y que los participantes responderán, será según la respuesta del participante la acción. Si el participante no responde correctamente Alexa le dará la opción de pistas, si aún así no adivina, el participante deberá beber un shot. Si la respuesta es correcta, otro participante continúa.
 
 Para esta skill se precisó que el tono fuera casual, divertido, irreverente. El léxico que se utilizó siguió estas pautas.  
+
+## Conversation design
+
+
 
 ## Intents && Utterances 
 
@@ -30,9 +34,19 @@ Para este MVP se definieron los siguientes *intents* con sus respectivas *uttera
 |NoIntent                     | 'que no','nop', 'mejor luego'
 |NoUnderstandIntent           |'o sea como', 'otra vez', 'hablas muy rapido', 'como dijiste'
 |TitanicCorrectIntent         | 'titanic','taitanic'
-|NoIdeaIntent                 | 'dame otraa pista','no me aacuerdo', 'quien sabe', 'ni idea'
-   
+|NoIdeaIntent                 | 'dame otra pista','no me aacuerdo', 'quien sabe', 'ni idea'
 
 
+ 
 
+## Código
 
+Una vez diseñada la conversación se desarrollo la skill con JavaScript en la alexa developer console. El codigo se puede ver [aquí](https://github.com/sofiamejiamuro/quien-sabe-mas/blob/master/index.js).
+
+<img src="./assets/images/alexa-developer-console.png"  width="800"/>
+
+## Skill ¿Quién sabe más?
+
+A continuación se puede escuchar un ejemplo de la interación personaa - Alexa en este juego.
+
+[flujo-1](./assets/sounds/Quien-sabe-mas-1)
