@@ -2,7 +2,7 @@
 
 Esta skill de Alexa fue diseñada y desarrollada durante el Hackhaton *Women in Voice Amazon Edition* que se llevo acabo el 14 de noviembre de 2019 en CDMX.
 
-Como resultado se obtuvo el primer lugar.
+Como resultado se obtuvimos el primer lugar.
 
 <p  align="left">
 <img src="./assets/images/hackathon-women-in-voice.jpg"  width="200"/>
@@ -11,7 +11,7 @@ El reto era de temática abierta.
 
 ## ¿Por qué un juego?
 
-La propuesta fue crear un juego en el que pudieran puedieran existir múlptiples participantes. Alexa es considerado en gran medida un dispositivo que funciona como asistente para diversas tareas, se espera que la interación sea persona - Alexa. Sin embargo, para este proyecto la intención era que Alexa funcionase como un punto de encunetro, como una conexión entre varios individuos y que permitiera la integración a la vida cotidiana de este tipo de tecnolgías de una forma más amena.
+La propuesta fue crear un juego en el que pudieran existir múltiples participantes. Alexa es considerada en gran medida un dispositivo que funciona como asistente para diversas tareas, se espera que la interación sea una persona - Alexa. Sin embargo, para este proyecto la intención era que Alexa funcionase como un punto de encuentro, como una conexión entre varios individuos y que permitiera la integración a la vida cotidiana de este tipo de tecnolgías de una forma más amena.
 
 El juego consiste en un conjuto de preguntas que Alexa hará y que los participantes responderán, será según la respuesta del participante la acción. Si el participante no responde correctamente Alexa le dará la opción de pistas, si aún así no adivina, el participante deberá beber un shot. Si la respuesta es correcta, otro participante continúa.
 
@@ -47,6 +47,10 @@ Una vez diseñada la conversación se desarrollo la skill con JavaScript en la a
 
 ## Skill ¿Quién sabe más?
 
-A continuación se puede escuchar un ejemplo de la interación personaa - Alexa en este juego.
+A continuación se pueden escuchar tres grabaciones de la interación persona - Alexa en este juego.
 
-[flujo-1](./assets/sounds/Quien-sabe-mas-1)
+[quien-sabe-mas-1](https://drive.google.com/file/d/1G6whs9w3o9X2dfRzhWdMqKMtC2pCrWr7/view?usp=sharing)
+
+[quien-sabe-mas-2](https://drive.google.com/file/d/1mlnS5H1P6Uvk2m9o2MDq9NQu7c1jf4Nx/view?usp=sharing)
+
+[quien-sabe-mas-flujo-completo3](https://drive.google.com/file/d/1KZPo8ieuZu4QUOZTT92pIaRqigW4anCt/view?usp=sharing)
