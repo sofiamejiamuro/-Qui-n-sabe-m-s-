@@ -19,7 +19,7 @@ Para esta skill se precisó que el tono fuera casual, divertido, irreverente. El
 
 ## Conversation design
 
-[Aquí]() se puever ver el draft inicial de la conversación
+[Aquí](https://github.com/sofiamejiamuro/quien-sabe-mas/blob/master/quien-sabe-mas-conversation.md) se puede ver el draft inicial de la conversación
 
 [Aquí](https://github.com/sofiamejiamuro/quien-sabe-mas/blob/master/model.json) se puede ver el interaction model utilizado en el código.
 
